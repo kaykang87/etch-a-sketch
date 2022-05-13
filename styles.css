@@ -12,12 +12,6 @@
   margin: 0;
 }
 
-html {
-  /* footer support */
-  position: relative;
-  min-height: 100%;
-}
-
 body {
   background-color: #bb9a48;
   color: var(--primary-dark);

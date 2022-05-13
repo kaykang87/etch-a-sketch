@@ -92,9 +92,7 @@ function changeColor(e) {
   } else if (currentMode === "color") {
     e.target.style.backgroundColor = currentColor;
   } else if (currentMode === "eraser") {
-    e.target.style.backgroundColor = "#fefefe";
-  } else if (currentMode === "bgColor") {
-    grid.style.backgroundColor = currentColor;
+    e.target.style.backgroundColor = bgColorPicker.value;
   }
 }
 
