@@ -189,8 +189,8 @@ input[type="range"]::-webkit-slider-thumb {
   gap: 10px;
 }
 
-.cellGrid{
-    border: 1px solid grey;
+.cellGrid {
+  border: 1px solid grey;
 }
 
 /* MEDIA QUERIES */
