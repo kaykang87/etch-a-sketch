@@ -145,10 +145,15 @@ input[type="range"]::-webkit-slider-thumb {
 
 .grid {
   display: grid;
-  width: 500px;
-  height: 500px;
+  width: 50vh;
+  height: 50vh;
   background-color: var(--secondary-light);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.grid-element {
+  /* make items non-draggable */
+  user-select: none;
 }
 
 /* FOOTER */
